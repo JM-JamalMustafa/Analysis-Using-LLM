@@ -37,3 +37,24 @@ Follow these steps to set up and run the project locally:
 ```bash
 git clone https://github.com/JM-JamalMustafa/Analysis-Using-LLM.git
 cd Analysis-Using-LLM
+```
+### 2. Install Python and Dependencies
+Make sure you have Python 3.7+ installed on your machine. Then, install the required dependencies by running the following command:
+
+```bash
+pip install -r requirements.txt
+```
+### 3. Run the FastAPI Server
+To start the FastAPI server, use the following command:
+```bash
+uvicorn app:app --reload
+```
+This will run the API locally on your machine at http://127.0.0.1:8000.
+
+### 4. Access the API Documentation
+Once the server is running, you can access the automatic API documentation provided by FastAPI. Open your browser and go to the following URL:
+```bash
+http://127.0.0.1:8000/docs
+```
+## License
+This project is open-source and available under the MIT License.
